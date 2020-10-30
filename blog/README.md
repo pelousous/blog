@@ -3,7 +3,8 @@
 ## Importants elements inside this project
 1. simple redux flow
 2. redux thunk to call async api
-3. memoising with lodash
+3. memoizing with lodash
+4. manage to avoid multiple call to the same api (ex. call api for retrieve infos with the same user id  -- fetchPostsAndUsers action)
 
 ## Available Scripts
 
